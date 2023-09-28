@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    display: table;
+    margin: auto;
+    
+}
+
+body {
+    
+    background-color: rgb(0, 0, 0);
+    color: #f7f8f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start; 
+    height: 100vh; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    width: 500px;
+    
+}
+
+#serviceBox {
+    border: 2px solid rgb(67, 69, 70);
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgb(20, 22, 22);
+    max-height: 300px; /* Set a maximum height for two rows */
+    overflow-y: auto;
+    
+    
+
+
+
+}
+
+#serviceBox ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px; 
+}
+
+
+.services {
+    
+    flex: 0 0 calc(50% - 10px); /* Two columns with spacing */
+    margin-bottom: 10px; /* Add some margin for spacing */
+    color: #f7f8f8;
+    padding: 5px;
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+
+
+.navbar {
+    
+    color: #f7f8f8;
+    text-decoration: none;
+    margin-right: 20px;
+    justify-content: flex-start;
+    padding: 10px;
+
+}
+
+#banner {
+    position: sticky; /* Set the position to sticky */
+    top: 40px; /* Adjust the distance below the navbar */
+    z-index: 1; /* Ensure it appears above other content */
+    width: 100%; /* Make it full-width */
+    height: 10px;
+    margin-top: 5px;
+    background: #1C6EA4;
+    background: -moz-linear-gradient(left, #1C6EA4 0%, #ee0808 100%);
+    background: -webkit-linear-gradient(left, #1C6EA4 0%, #ee0808 100%);
+    background: linear-gradient(to right, #1C6EA4 0%, #ee0808 100%);
+}
+
+footer {
+    margin-top: auto;
+    padding: 10px;
+}
+
