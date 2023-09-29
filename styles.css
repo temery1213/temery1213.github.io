@@ -89,13 +89,32 @@ footer {
 }
 
 #description {
-
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
     height: 100px;
     flex-wrap: wrap;
-    max-width: fit-content;
+    max-width: 400px;
 }
 
-#contactForm {
+#fname, #lname, #phone, #make, #model, #year, #city, #availibility, #description, #haveParts {
+    width: 300px;
+    margin-left: 25px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    
+}
 
+
+#contactForm {
+    border: 2px solid rgb(67, 69, 70);
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgb(20, 22, 22);
+    max-height: 300px; 
+    overflow-y: auto;
     
 }
