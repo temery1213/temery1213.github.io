@@ -32,7 +32,7 @@ body {
     border: 2px solid rgb(67, 69, 70);
     border-radius: 10px;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 30px;
     background-color: rgb(38, 41, 41);
     max-height: 350px; 
     overflow-y: auto;
@@ -74,19 +74,6 @@ body {
 
 }
 
-#banner {
-
-    position: sticky; 
-    top: 40px; 
-    z-index: 1; 
-    width: 100%; 
-    height: 10px;
-    margin-top: 5px;
-    background: #1C6EA4;
-    background: -moz-linear-gradient(left, #1C6EA4 0%, #ee0808 100%);
-    background: -webkit-linear-gradient(left, #1C6EA4 0%, #ee0808 100%);
-    background: linear-gradient(to right, #1C6EA4 0%, #ee0808 100%);
-}
 
 footer {
 
@@ -121,10 +108,11 @@ footer {
     border: 2px solid rgb(67, 69, 70);
     border-radius: 10px;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 30px;
     background-color:rgb(38, 41, 41);
-    max-height: 350px; 
-    overflow-y: auto;
+    height: 820px; 
+
+    
     
 }
 
@@ -141,9 +129,9 @@ label {
     border: 2px solid rgb(67, 69, 70);
     border-radius: 10px;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 30px;
     background-color: rgb(38, 41, 41);
-    height: 500px; 
+    height: 700px; 
     
 
 }
@@ -173,12 +161,12 @@ label {
     .div3 { grid-area: 1 / 2 / 2 / 3; }
 
 .instaQR {
-    position: sticky; 
+     
     top: 40px; 
-    z-index: 1; 
     width: 100%; 
     height: 10px;
     margin-bottom: 10px;
+    margin-top: 20px;
 }
 
 a {
