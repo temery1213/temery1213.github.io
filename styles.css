@@ -149,10 +149,11 @@ label {
     max-width: 530px;
     margin-top: 30px;
     background-color: rgb(38, 41, 41);
-    height: 400px; 
-    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    padding: 20px; 
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
     box-shadow: 5px 5px 15px 5px #000000;
-    
+    overflow: hidden; 
+    min-height: 700px; 
 
 }
 
@@ -167,9 +168,14 @@ label {
 
 .aboutMe {
     justify-content: flex-end;
-    align-items: end;
-    text-indent: 30px;
+    align-items: flex-start; 
+    text-indent: 30px; 
+    margin: 20px 0; 
     
+}
+
+.aboutMe p {
+    margin: 10px 0; /* Adjust paragraph margin for spacing */
 }
 
 .parent {
