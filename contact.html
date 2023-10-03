@@ -8,43 +8,56 @@
 </head>
 <body>
     <div class="topBar">
-        <div class="instaQR">
-            <a href="https://www.instagram.com/menamechanicshpp/">
-                 <img src="./images/instaQR.png" alt="instagram QR code">
-            </a>
-                <img src="./images/nmotionlogo.PNG" width="250px" height="auto">
-            </div>
-    </div>
-    
-    <div class="navContainer">
-        <a href="./index.html" class="navBar" id="navBar">Home</a>
-        <a href="./services.html" class="navBar" id="navBar">Services</a>
-        <a href="./contact.html" class="navBar" id="navBar">Contact</a>
+        <a href="https://www.instagram.com/menamechanicshpp/" class="instaQR">
+            <img src="./images/instaQR.png" alt="instagram QR code">
+        </a>
+        <img src="./images/nmotionlogo.PNG" class="nmotionLogo" alt="Nmotion Logo" height="70px" width="150">
+        <div class="navContainer">
+            <a href="./index.html" class="navBar">Home</a>
+            <a href="./services.html" class="navBar">Services</a>
+            <a href="./contact.html" class="navBar">Contact</a>
+        </div>
     </div>
    
     
     <div class="form" id="contactForm">
     <form action="https://formspree.io/f/xyyqbzll" method="post">
+        
         <label for="fname">First name:</label><br>
         <input type="text" id="fname" name="First Name" value=""><br>
+        
         <label for="lname">Last name:</label><br>
         <input type="text" id="lname" name="Last Name" value=""><br>
+        
         <label for="phoneNumber">Phone number:</label><br>
         <input type="text" id="phone" name="Phone" value=""><br>
+        
         <label for="make">Make of vehicle:</label><br>
         <input type="text" id="make" name="Make" value=""><br>
+        
         <label for="model">Model:</label><br>
         <input type="text" id="model" name="Model" value=""><br>
+        
         <label for="year">Year:</label><br>
         <input type="text" id="year" name="Year" value=""><br>
+       
         <label for="City">City:</label><br>
         <input type="text" id="city" name="City" value=""><br>
+        
         <label for="availibility">Availability:</label><br>
         <input type="text" id="availibility" name="Availibility" value=""><br>
-        <label for="haveParts">Do you have parts? (yes or no):</label><br>
-        <input type="text" id="haveParts" name="Has Parts" value=""><br>
+        
+        <label>Do you have parts?</label><br>
+        <div class="checkbox-group">
+        <input type="checkbox" id="havePartsYes" name="Customer has parts" value="yes">
+        <label for="havePartsYes">Yes</label>
+        <input type="checkbox" id="havePartsNo" name="Customer has parts" value="no">
+        <label for="havePartsNo">No</label>
+        </div>
+        
         <label for="description">Brief description of issue:</label><br>
-        <input type="text" id="description" name="Description" value=""><br>
+        <textarea id="description" name="Description" rows="4" cols="50"></textarea><br>
+        
         
         <input type="submit" value="Submit">
       </form> 
@@ -52,7 +65,7 @@
     <footer>
         <address>
     Phone: (615) 540-6044<br>
-    Email: menagamil11@.com<br>
+    Email: menagamil11@gmail.com<br>
         </address>
     </footer>
 </body>
