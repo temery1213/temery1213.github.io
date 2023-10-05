@@ -175,7 +175,7 @@ label {
 }
 
 .aboutMe p {
-    margin: 10px 0; /* Adjust paragraph margin for spacing */
+    margin: 10px 0; 
 }
 
 .parent {
@@ -226,3 +226,10 @@ a {
     height: 60px;
     
 }
+
+.nmotionLogo {
+    width: 250px;
+    height: auto;
+}
+
+
