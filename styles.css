@@ -23,6 +23,7 @@ body {
     height: 100vh; 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     width: 100vw;
+
     
 }
 
@@ -95,7 +96,7 @@ footer {
     max-width: 400px;
 }
 
-#fname, #lname, #phone, #make, #model, #year, #city, #availibility, #description, #havePartsYes, #havePartsNo {
+#fname, #lname, #phone, #email, #make, #model, #year, #city, #availibility, #description, #havePartsYes, #havePartsNo {
 
     width: 300px;
     margin-left: 25px;
@@ -178,21 +179,7 @@ label {
     margin: 10px 0; 
 }
 
-.parent {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    width: 100%;
-    max-width: 500px;
-    margin: 10px;
-    
-    }
-    
-    .div1 { grid-area: 1 / 1 / 2 / 2; }
-    .div2 { grid-area: 2 / 1 / 3 / 2; }
-    .div3 { grid-area: 1 / 2 / 2 / 3; }
+
 
 
 a {
@@ -232,4 +219,9 @@ a {
     height: auto;
 }
 
+.selfInsert {
+    height: auto;
+    width: 250px;
+    padding: 10px;
+}
 
