@@ -71,9 +71,10 @@ body {
     
     color: #f7f8f8;
     text-decoration: none;
-    margin-right: 20px;
+    margin-right: auto;
     justify-content: flex-start;
     padding: 10px;
+    border: red 1px;
     
     
 
@@ -98,7 +99,7 @@ footer {
 
 #fname, #lname, #phone, #email, #make, #model, #year, #city, #availibility, #description, #havePartsYes, #havePartsNo {
 
-    width: 300px;
+    width: auto;
     margin-left: 25px;
     padding: 5px;
     display: flex;
@@ -143,44 +144,70 @@ label {
 }
 
 .about {
-    display: flex;
-    flex-direction: column;
     border: 2px solid rgb(67, 69, 70);
     border-radius: 10px;
     width: 85%;
     max-width: 530px;
     margin-top: 30px;
-    background-color: rgb(38, 41, 41);
-    padding: 20px; 
+    background-color: rgb(39, 41, 41);
+    padding: 20px;
     -webkit-box-shadow: 5px 5px 15px 5px #000000;
     box-shadow: 5px 5px 15px 5px #000000;
-    overflow: hidden; 
-    min-height: 850px; 
+    overflow: hidden;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    
 
 }
 
-
-
 .missionStatement {
-    justify-content: flex-start;
+    color: rgb(234, 239, 241);
+    text-align: left;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-decoration-color:#1a8ca0;
     font-size: 12px;
-    color: rgb(255, 255, 255);
     
 }
 
+.aboutContent {
+    display: flex;
+    flex-direction: column;
+}
+
 .aboutMe {
-    justify-content: flex-end;
-    align-items: flex-start; 
-    text-indent: 30px; 
-    margin: 20px 0; 
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin: 20px 0;
+    padding-right: 20px;
+    
     
 }
 
 .aboutMe p {
-    margin: 10px 0; 
+    margin: 10px 0;
+    width: 100%;
 }
 
 
+.selfInsert {
+    width: 100%;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 200px; 
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px
+    }
+
+
+    @media (max-height: 500px) {
+        .aboutMe p {
+            font-size: 12px; /* Decrease font size for smaller container height */
+        }
+    }
 
 
 a {
@@ -193,7 +220,7 @@ a {
 .topBar  {
     display: flex;
     align-items: center ;
-    justify-content: space-between;
+    justify-content: between;
     background-color: #000000;
     width: 100%;
     height: 20vh;
@@ -208,6 +235,8 @@ a {
     
 }
 
+
+
 .instaQR img {
 
     width: auto;
@@ -220,9 +249,9 @@ a {
     height: auto;
 }
 
-.selfInsert {
-    height: auto;
-    width: 250px;
-    padding: 10px;
-}
 
+#contactForm ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}

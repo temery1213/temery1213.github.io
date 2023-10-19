@@ -11,7 +11,7 @@
         <a href="https://www.instagram.com/menamechanicshpp/" class="instaQR">
             <img src="./images/instaQR.png" alt="instagram QR code">
         </a>
-        <p>Call today! (615) 540-6044</p>
+        <a href="tel:615-540-6044">(615) 540-6044</a>
         <img src="./images/nmotionlogo.PNG" class="nmotionLogo" alt="Nmotion Logo" >
         <div class="navContainer">
             <a href="./index.html" class="navBar">Home</a>
@@ -24,71 +24,94 @@
     <div class="form" id="contactForm">
     <form action="https://formspree.io/f/xyyqbzll" method="post">
         
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="First Name" value=""><br>
+      <ul>
+            <li>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="First Name" value=""><br>
+            </li>
+            
+            <li>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="Last Name" value=""><br>
+            </li>
+            
+            <li>
+                <label for="phoneNumber">Phone number:</label><br>
+                <input type="text" id="phone" name="Phone" value=""><br>
+            </li>
+            
+            <li>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="Email" value=""><br>
+            </li>
+    
+            <li>
+                <label for="make">Make of vehicle:</label><br>
+                <input type="text" id="make" name="Make" value=""><br>
+            </li>
+            
+            <li>
+                <label for="model">Model:</label><br>
+                <input type="text" id="model" name="Model" value=""><br>
+            </li>
+            
+            <li>
+                <label for="year">Year:</label><br>
+                <input type="text" id="year" name="Year" value=""><br>
+            </li>
+           
+            <li>
+                <label for="City">City:</label><br>
+                <input type="text" id="city" name="City" value=""><br>
+            </li>
+            
+            <li>
+                <label for="availability">Availability:</label><br>
+        <input type="checkbox" id="monday" name="availability[]" value="monday">
+        <label for="monday">Monday</label><br>
         
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="Last Name" value=""><br>
+        <input type="checkbox" id="tuesday" name="availability[]" value="tuesday">
+        <label for="tuesday">Tuesday</label><br>
         
-        <label for="phoneNumber">Phone number:</label><br>
-        <input type="text" id="phone" name="Phone" value=""><br>
+        <input type="checkbox" id="wednesday" name="availability[]" value="wednesday">
+        <label for="wednesday">Wednesday</label><br>
         
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="Email" value=""><br>
-        <label for="make">Make of vehicle:</label><br>
-        <input type="text" id="make" name="Make" value=""><br>
+        <input type="checkbox" id="thursday" name="availability[]" value="thursday">
+        <label for="thursday">Thursday</label><br>
         
-        <label for="model">Model:</label><br>
-        <input type="text" id="model" name="Model" value=""><br>
+        <input type="checkbox" id="friday" name="availability[]" value="friday">
+        <label for="friday">Friday</label><br>
         
-        <label for="year">Year:</label><br>
-        <input type="text" id="year" name="Year" value=""><br>
-       
-        <label for="City">City:</label><br>
-        <input type="text" id="city" name="City" value=""><br>
+        <input type="checkbox" id="saturday" name="availability[]" value="saturday">
+        <label for="saturday">Saturday</label><br>
         
-        <label for="availability">Availability:</label><br>
-<input type="checkbox" id="monday" name="availability[]" value="monday">
-<label for="monday">Monday</label><br>
-
-<input type="checkbox" id="tuesday" name="availability[]" value="tuesday">
-<label for="tuesday">Tuesday</label><br>
-
-<input type="checkbox" id="wednesday" name="availability[]" value="wednesday">
-<label for="wednesday">Wednesday</label><br>
-
-<input type="checkbox" id="thursday" name="availability[]" value="thursday">
-<label for="thursday">Thursday</label><br>
-
-<input type="checkbox" id="friday" name="availability[]" value="friday">
-<label for="friday">Friday</label><br>
-
-<input type="checkbox" id="saturday" name="availability[]" value="saturday">
-<label for="saturday">Saturday</label><br>
-
-<input type="checkbox" id="sunday" name="availability[]" value="sunday">
-<label for="sunday">Sunday</label><br>
-        
-        <label>Do you have parts?</label><br>
-        <div class="checkbox-group">
-        <input type="checkbox" id="havePartsYes" name="Customer has parts" value="yes">
-        <label for="havePartsYes">Yes</label>
-        <input type="checkbox" id="havePartsNo" name="Customer has parts" value="no">
-        <label for="havePartsNo">No</label>
-        </div>
-        
-        <label for="description">Brief description of issue:</label><br>
-        <textarea id="description" name="Description" rows="4" cols="50"></textarea><br>
-        
-        
-        <input type="submit" value="Submit">
+        <input type="checkbox" id="sunday" name="availability[]" value="sunday">
+        <label for="sunday">Sunday</label><br>
+            </li>
+            
+            <li>
+                <label>Do you have parts?</label><br>
+                <div class="checkbox-group">
+                <input type="checkbox" id="havePartsYes" name="Customer has parts" value="yes">
+                <label for="havePartsYes">Yes</label>
+                <input type="checkbox" id="havePartsNo" name="Customer has parts" value="no">
+                <label for="havePartsNo">No</label>
+                </div>
+            </li>
+            
+            <li>
+                <label for="description">Brief description of issue:</label><br>
+                <textarea id="description" name="Description" rows="4" cols="auto"></textarea><br>
+            </li>
+            
+            
+           <li> <input type="submit" value="Submit"></li>
+      </ul>
       </form> 
     </div>  
     <footer>
-        <address>
-    Phone: (615) 540-6044<br>
-    Email: menagamil11@gmail.com<br>
-        </address>
-    </footer>
+        <footer>
+            Where all cars are family.
+        </footer>
 </body>
 </html>
