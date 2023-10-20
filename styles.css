@@ -200,7 +200,7 @@ label {
 
 .parent {
     display: grid;
-    grid-template-columns: 2fr 150px; 
+    grid-template-columns: 1fr 200px; 
     grid-template-rows: 1fr;
     grid-column-gap: 10px
     }
