@@ -73,7 +73,7 @@ body {
     text-decoration: none;
     margin-right: auto;
     justify-content: flex-start;
-    padding: 20px;
+    padding: 10px;
     border: red 1px;
 
     
@@ -200,9 +200,9 @@ label {
 
 .parent {
     display: grid;
-    grid-template-columns: 1fr 200px; 
+    grid-template-columns: 1fr 150px; 
     grid-template-rows: 1fr;
-    grid-column-gap: 20px
+    grid-column-gap: 10px
     }
 
 
