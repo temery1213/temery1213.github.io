@@ -200,7 +200,7 @@ label {
 
 .parent {
     display: grid;
-    grid-template-columns: 1fr 150px; 
+    grid-template-columns: 2fr 150px; 
     grid-template-rows: 1fr;
     grid-column-gap: 10px
     }
@@ -208,7 +208,7 @@ label {
 
     @media (max-height: 500px) {
         .aboutMe p {
-            font-size: 12px; /* Decrease font size for smaller container height */
+            font-size: 10px; /* Decrease font size for smaller container height */
         }
     }
 
@@ -219,8 +219,6 @@ a {
 	text-underline-offset: 0.25em;
 	text-decoration-thickness: 0.1em;
     padding: 10px;
-    background-color:red;
-    background-opacity:20%;
 }
 
 .topBar  {
