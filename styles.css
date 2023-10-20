@@ -76,7 +76,7 @@ body {
     padding: 20px;
     border: red 1px;
     background: red;
-    margin-right: 10px;
+    
     
     
     
@@ -218,6 +218,7 @@ a {
 	text-decoration-color: rgb(211, 12, 12);
 	text-underline-offset: 0.25em;
 	text-decoration-thickness: 0.1em;
+    padding: 10px;
 }
 
 .topBar  {
