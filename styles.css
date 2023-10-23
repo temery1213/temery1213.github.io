@@ -216,13 +216,23 @@ label {
         .aboutMe p {
             font-size: 10px;
             
+            
         }
         .selfInsert {
             margin-top: 10px;
+            
+            width: 150px;
+            height: auto;
         }
         html, body {
             overflow-x: hidden;
         }
+        .parent {
+            display: grid;
+            grid-template-columns: 1fr 150px; 
+            grid-template-rows: 1fr;
+            grid-column-gap: 10px
+            }
         
     }
 
