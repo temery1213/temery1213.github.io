@@ -211,10 +211,15 @@ label {
             font-size: 12px; 
         }
     }
+    @media (min-height: 501px) {
+        .aboutMe p {
+            font-size: 12px; 
+        }
+    }
 
     @media (max-width: 500px) {
         .aboutMe p {
-            font-size: 10px;
+            font-size: 11px;
             
             
         }
@@ -237,8 +242,13 @@ label {
         }
     }
 
-   
-
+    @media (max-width: 400px) {
+        .aboutMe p {
+            font-size: 10px;
+            
+            
+        }
+    }
 
 a {
 	color: rgb(235, 240, 241);
