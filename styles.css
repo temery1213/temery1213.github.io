@@ -146,6 +146,12 @@ label {
     
 }
 
+input:invalid {
+    border-color: red;
+  }
+  
+
+
 .about {
     border: 2px solid rgb(67, 69, 70);
     border-radius: 10px;
